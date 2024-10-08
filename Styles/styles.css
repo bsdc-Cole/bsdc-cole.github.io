@@ -1,5 +1,29 @@
 body{ 
     background-image: url("/Images/STORM.webp");
     background-size: cover;
+    height: 100vh;
 }
+body{
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+  }
+.navbar ul{
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar li{
+    float: left;
+}
+  
 
