@@ -42,6 +42,7 @@ h1 {
     margin: 0px;
     overflow: hidden;
     display:flex;flex-direction: row-reverse;
+    text-align: center;
 }
 
 .navbar2 a{
