@@ -25,6 +25,7 @@ h1 {
       display: flex;
       justify-content: space-evenly;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
