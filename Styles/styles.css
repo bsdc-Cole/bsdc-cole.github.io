@@ -16,6 +16,8 @@ h1 {
       padding: 0px;
       margin: 0px;
       overflow: hidden;
+      display: flex;
+      justify-content: space-evenly;
 }
 .navbar a{
     color: white;
@@ -24,6 +26,25 @@ h1 {
 }
 .navbar li{
     float: left;
+    font-size: 50px;
 }
-  
-
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-family: "Dosis";
+    padding-bottom: 10px;
+    gap: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:black;
+    height: 150px;
+    
+  }
+img{
+    padding-top: 30px;
+    height: 100px;
+    padding-right: 30px;
+}
