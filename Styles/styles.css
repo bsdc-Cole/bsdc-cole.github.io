@@ -11,6 +11,11 @@ h1 {
     text-align: center;
     font-size: 90px;
   }
+
+  h2 {
+    text-align: center;
+    font-size: 75px;
+  }
 .navbar ul{
       list-style-type: none;
       padding: 0px;
