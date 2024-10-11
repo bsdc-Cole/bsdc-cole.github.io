@@ -1,7 +1,7 @@
 const discord=document.getElementById ("discord")
 
 discord.addEventListener("click", function(){
-    window.location.href="http://www.discord.com"
+    window.location.href="https://discord.gg/Zts2eUBy"
 });
 
 const instagram=document.getElementById ("instagram")

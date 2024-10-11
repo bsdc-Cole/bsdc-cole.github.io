@@ -24,7 +24,7 @@ h2 {
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-    gap: 200px;
+    gap: 300px;
 }
 
 .navbar a {
