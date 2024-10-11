@@ -13,7 +13,7 @@ instagram.addEventListener("click", function(){
 const twitter=document.getElementById ("twitter")
 
 twitter.addEventListener("click", function(){
-    window.location.href="http://www.twitter.com"
+    window.location.href="https://x.com/ShadzTips"
 });
 
 const twitch=document.getElementById ("twitch")
