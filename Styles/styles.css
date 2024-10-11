@@ -36,28 +36,8 @@ h1 {
     font-size: 50px;
 }
 
-.navbar2{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    display:flex;flex-direction: row-reverse;
-}
-
-
-.navbar2 a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-}
-
-.navbar2 li{
-    float: left;
-}
-
-
-.navbar2 {
-    font-size: 50px;
+.login{
+    padding-left:30px;
 }
 
 
