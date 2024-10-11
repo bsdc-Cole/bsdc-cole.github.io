@@ -7,7 +7,7 @@ discord.addEventListener("click", function(){
 const instagram=document.getElementById ("instagram")
 
 instagram.addEventListener("click", function(){
-    window.location.href="http://www.instagram.com"
+    window.location.href="https://www.instagram.com/shadz.fortnite.insight/"
 });
 
 const twitter=document.getElementById ("twitter")
