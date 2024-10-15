@@ -11,51 +11,65 @@ body {
 h1 {
     text-align: center;
     font-size: 90px;
+    color: white;
+    font-family: "Protest Strike";
 }
 
 h2 {
     text-align: center;
     font-size: 60px;
+    color: white;
+    font-family: "Protest Strike"
 }
 
-.navbar {
+nav {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-    gap: 300px;
+    gap: 0px;
+    font-family: "Protest Strike";
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 200px;
+}
+.login{
+    padding-left: 500px;
+    margin-right:0px;
+}
+.login a{
+    margin-right: 0px;
+    padding-right: 0px;
+
+}
+p{
+    text-align: right;
+    font-size: 40px;
+    font-family: "Protest Strike";
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-}
-
-.navbar li {
-    float: left;
+li {
     font-size: 50px;
+    margin: 0px;
+    padding: 0px 20px;
+    display: inline-block;
 }
 
-.login {
-    font-size: 20px;
-    padding-top: 5%;
-    padding-left: 20px;
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Protest Strike";
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 
-
-.navbar ul {
-    list-style-type: none;
-}
-
-
-.login {
-    font-size: 30px;
-    padding-top: 5%;
-    padding-left: 20px;
-}
 
 
 .footer {
@@ -110,4 +124,21 @@ button {
 h3 {
     text-align: center;
     font-size: 60px;
+}
+
+form{
+    text-align-last: center;
+
+}
+.side #search {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 100%;
+    z-index: 100;
+}
+
+input {
+    font-size: 50px;
 }
