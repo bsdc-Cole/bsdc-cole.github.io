@@ -141,4 +141,6 @@ form{
 
 input {
     font-size: 50px;
+    border-radius: 25px;
+    margin-left: 180px;
 }
