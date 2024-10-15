@@ -22,21 +22,28 @@ h2 {
     font-family: "Protest Strike"
 }
 
-nav {
+#navbar {
+   position:sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+.nav {
+    position:sticky;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-    gap: 0px;
-    font-family: "Protest Strike";
-}
-.navbar{
-    display:flex;
-    justify-content: space-evenly;
     flex-direction: row;
     gap: 200px;
+    font-family: "Protest Strike";
 }
+
 .login{
     padding-left: 500px;
     margin-right:0px;
@@ -68,7 +75,12 @@ li a {
 li a:hover {
     text-decoration: underline;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.Sessions{
+    padding-top: 2000px;
+}
 
 
 
@@ -140,5 +152,11 @@ form{
 }
 
 input {
-    font-size: 50px;
+    font-size: 100%;
+    border-radius: 25px;
+    margin-left: 27%;
 }
+
+
+
+
