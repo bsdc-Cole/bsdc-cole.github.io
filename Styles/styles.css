@@ -2,11 +2,9 @@ body {
     background-image: url("/Images/STORM.webp");
     background-size: cover;
     height: 100vw;
-}
-
-body {
     margin: 0vw;
 }
+
 
 h1 {
     text-align: center;
