@@ -1,23 +1,23 @@
 body {
     background-image: url("/Images/STORM.webp");
     background-size: cover;
-    height: 100vh;
+    height: 100vw;
 }
 
 body {
-    margin: 0px;
+    margin: 0vw;
 }
 
 h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 4.5vw;
     color: white;
     font-family: "Protest Strike";
 }
 
 h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 3vw;
     color: white;
     font-family: "Protest Strike"
 }
@@ -34,35 +34,35 @@ h2 {
 
 .nav {
     position:sticky;
-    padding: 0px;
-    margin: 0px;
+    padding: 0vw;
+    margin: 0vw;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    gap: 200px;
+    gap: 10vw;
     font-family: "Protest Strike";
 }
 
 .login{
-    padding-left: 500px;
-    margin-right:0px;
+    padding-left: 25vw;
+    margin-right:0vw;
 }
 .login a{
-    margin-right: 0px;
-    padding-right: 0px;
+    margin-right: 0vw;
+    padding-right: 0vw;
 
 }
 p{
     text-align: right;
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "Protest Strike";
 }
 
 li {
-    font-size: 50px;
-    margin: 0px;
-    padding: 0px 20px;
+    font-size: 2.5vw;
+    margin: 0vw;
+    padding: 0vw 1vw;
     display: inline-block;
 }
 
@@ -79,7 +79,7 @@ html{
     scroll-behavior: smooth;
 }
 .Sessions{
-    padding-top: 2000px;
+    padding-top: 100vw;
 }
 
 
@@ -90,14 +90,14 @@ html{
     flex-direction: row;
     color: white;
     font-family: "Dosis";
-    padding-bottom: 10px;
-    gap: 15px;
+    padding-bottom: 0.5vw;
+    gap: 0.75vw;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background: black;
-    height: 150px;
+    height: 7.5vw;
 
 }
 
@@ -107,24 +107,24 @@ html{
 }
 
 img {
-    padding-top: 30px;
-    height: 100px;
-    padding-right: 30px;
+    padding-top: 1.5vw;
+    height: 5vw;
+    padding-right: 1.5vw;
 }
 
 .address {
-    padding-top: 15px;
-    font-size: 20px;
+    padding-top: 0.75vw;
+    font-size: 1vw;
 }
 
 .phone {
-    padding-top: 15px;
-    font-size: 20px;
+    padding-top: 0.75vw;
+    font-size: 1vw;
 }
 
 .email {
-    padding-top: 15px;
-    font-size: 20px;
+    padding-top: 0.75vw;
+    font-size: 1vw;
 }
 
 button {
@@ -135,7 +135,7 @@ button {
 
 h3 {
     text-align: center;
-    font-size: 60px;
+    font-size: 3vw;
 }
 
 form{
@@ -146,14 +146,14 @@ form{
     left: 0;
     position: absolute;
     text-align: center;
-    top: 25px;
+    top: 1.25vw;
     width: 100%;
     z-index: 100;
 }
 
 input {
     font-size: 100%;
-    border-radius: 25px;
+    border-radius: 1.25vw;
     margin-left: 27%;
 }
 
