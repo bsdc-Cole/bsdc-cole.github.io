@@ -95,7 +95,7 @@ html{
     bottom: 0;
     width: 100%;
     background: black;
-    height: 30vw;
+    height: 10vw;
 
 }
 
@@ -112,17 +112,17 @@ img {
 
 .address {
     padding-top: 0.75vw;
-    font-size: 2.5vw;
+    font-size: 1vw;
 }
 
 .phone {
     padding-top: 0.75vw;
-    font-size: 2.5vw;
+    font-size: 1vw;
 }
 
 .email {
     padding-top: 0.75vw;
-    font-size: 2.5vw;
+    font-size: 1vw;
 }
 
 button {
